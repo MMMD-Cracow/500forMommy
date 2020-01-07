@@ -1,4 +1,4 @@
-package com.example.a500formummy;
+package com.a500formummy;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -150,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
         textView  = findViewById(R.id.textView);
         imageView = findViewById(R.id.imageView);
 
-        sharedPreferences = this.getSharedPreferences("com.example.a500formummy", Context.MODE_PRIVATE);
+        sharedPreferences = this.getSharedPreferences("com.a500formummy", Context.MODE_PRIVATE);
 
         money = sharedPreferences.getInt("money",0);
         addValue = sharedPreferences.getInt("addValue",500);

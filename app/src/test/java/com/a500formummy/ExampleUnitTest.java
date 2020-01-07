@@ -1,4 +1,4 @@
-package com.example.a500formummy;
+package com.a500formummy;
 
 import org.junit.Test;
 

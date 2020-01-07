@@ -1,4 +1,4 @@
-package com.example.a500formummy;
+package com.a500formummy;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.example.a500formummy", appContext.getPackageName());
+        assertEquals("com.a500formummy", appContext.getPackageName());
     }
 }
